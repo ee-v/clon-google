@@ -102,15 +102,18 @@ body {
 }
 
 .icon-search {
-  mask-image: url('../ico/magnify.svg');
+  mask-image        : url('../ico/magnify.svg');
+  -webkit-mask-image: url('../ico/magnify.svg');
 }
 
 .icon-mic {
-  mask-image: url('../ico/microphone.svg');
+  mask-image        : url('../ico/microphone.svg');
+  -webkit-mask-image: url('../ico/microphone.svg');
 }
 
 .icon-close {
-  mask-image: url('../ico/close.svg');
+  mask-image        : url('../ico/close.svg');
+  -webkit-mask-image: url('../ico/close.svg');
 }
 
 .flex {
