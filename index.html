@@ -13,25 +13,28 @@
 <body>
   <header class="flex flex-a-center flex-j-end gap-md p-t-sm p-r-sm">
     <div class="flex gap-sm">
-      <a href="#" class="link c-black text-sm">Gmail</a>
-      <a href="#" class="link c-black text-sm">Imagenes</a>
+      <a href="https://www.google.com/intl/es-419/gmail/about/" class="link c-black text-sm">Gmail</a>
+      <a href="https://www.google.com.mx/imghp?hl=es-419&ogbl" class="link c-black text-sm">Imagenes</a>
     </div>
     <div class="flex gap-sm">
-      <img src="./assets/ico/menu.svg" alt="Menu" class="">
-      <img src="./assets/ico/undraw_female_avatar.svg" alt="Avatar" class="img-avatar">
+      <img src="./assets/ico/menu.svg" alt="Menu" class="cursor">
+      <img src="./assets/ico/undraw_female_avatar.svg" alt="Avatar" class="img-avatar cursor">
     </div>
   </header>
   <main class="flex flex-column flex-a-center gap-sm m-t-lg">
     <img src="./assets/img/googlelogo_color_272x92dp.png" alt="Logo Google" id="logo" class="img-logo">
-    <div class="input-search">
+    <section class="input-search">
       <span class="icon icon-search"></span>
       <input type="text" class="input" id="input-search">
-      <span class="icon icon-mic"></span>
-    </div>
-    <div class="flex gap-xs">
-      <button id="search" class="btn-search">Buscar con Google</button>
-      <button id="lucky" class="btn-search">Me siento con suerte</button>
-    </div>
+      <span class="icon icon-mic cursor"></span>
+      <!-- <span class="icon icon-close"></span> -->
+    </section>
+    <section class="">
+      <div class="flex gap-xs">
+        <button id="search" class="btn-search">Buscar con Google</button>
+        <button id="lucky" class="btn-search">Me siento con suerte</button>
+      </div>
+    </section>
     <p class="c-black text-sm">Ofrecido por Google en: <a href="#" class="link">Español (Latinoamérica)</a></p>
   </main>
   <footer class="bgc-light-gray bottom text-bold">
@@ -40,15 +43,19 @@
     </section>
     <section class="flex flex-a-center flex-j-space-between p-v-xs b-top p-l-sm p-r-sm">
       <div class="flex gap-md">
-        <a href="#" class="link c-gray">Sobre Google</a>
-        <a href="#" class="link c-gray">Publicidad</a>
-        <a href="#" class="link c-gray">Negocios</a>
-        <a href="#" class="link c-gray">Cómo funciona la Búsqueda</a>
+        <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1"
+          class="link c-gray footer-link">Sobre Google</a>
+        <a href="https://ads.google.com/intl/es-419_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+          class="link c-gray footer-link">Publicidad</a>
+        <a href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX#!/"
+          class="link c-gray footer-link">Negocios</a>
+        <a href="https://www.google.com/search/howsearchworks/?fg=1" class="link c-gray footer-link">Cómo funciona la
+          Búsqueda</a>
       </div>
       <div class=" flex gap-md">
-        <a href="#" class="link c-gray">Privacidad</a>
-        <a href="#" class="link c-gray">Condiciones</a>
-        <a href="#" class="link c-gray">Preferencias</a>
+        <a href="https://policies.google.com/privacy?hl=es-419&fg=1" class="link c-gray footer-link">Privacidad</a>
+        <a href="https://policies.google.com/terms?hl=es-419&fg=1" class="link c-gray footer-link">Condiciones</a>
+        <a href="#" class="link c-gray footer-link">Preferencias</a>
       </div>
     </section>
   </footer>

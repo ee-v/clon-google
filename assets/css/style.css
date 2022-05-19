@@ -47,6 +47,10 @@ body {
   width   : 100%;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 .bgc-light-gray {
   background-color: var(--c-light-gray);
 }
@@ -86,8 +90,8 @@ body {
 
 .icon {
   display              : inline-block;
-  height               : 20px;
-  width                : 20px;
+  height               : 24px;
+  width                : 24px;
   -webkit-mask-size    : contain;
   mask-size            : contain;
   -webkit-mask-position: center;
@@ -103,6 +107,10 @@ body {
 
 .icon-mic {
   mask-image: url('../ico/microphone.svg');
+}
+
+.icon-close {
+  mask-image: url('../ico/close.svg');
 }
 
 .flex {
